@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    overflow-x:hidden;
+  }
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+
+/*===================SESION HEADER==========================*/
+.card-img{
+    padding: 0;
+    height:auto;
+    
+
+/*===================SESION INTRODUCCION ==========================*/    
+}
+#intro{
+    text-align: left !important;
+    width: 70% !important;
+}  
+#intro{
+    text-align: left !important;
+    width: 70% !important;
+    }
+    
+#mision-1{
+    text-align: left !important; 
+    width: 70% !important;
+    color: #f9f6f2;
+    }
+.mision-caja{
+    width: 100%;
+    background:linear-gradient(to right top, rgb(223, 130, 9), rgb(192, 173, 141)) rgb(233, 172, 132);
+    border-top:0.5px solid rgb(252, 241, 241) ;
+    }
+  
+                
+#tarjet-1{
+    width: 50%;
+    padding: 20px;
+    } 
+/*===================SESION API WHATSAPP ==========================*/ 
+.whatsapp{
+        width: 60px;
+        position:fixed;
+        bottom: 10px;
+        right: 10px;
+    }    
+/*===================SESION FOOTER ==========================*/ 
+#footer-1 {
+    background: rgb(82, 82, 83);
+    color: white; 
+    text-align: center; 
+    padding:20px; 
+    
+}
+       
+
+
+

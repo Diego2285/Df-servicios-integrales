@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  overflow-x:hidden;
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Montserrat',sans-serif;
+}
+
+header{
+  width: 100%;
+}
+
+section{
+  width: 100%;
+}
+
+/*===================SLIDER DE IMAGENES==========================*/
+.carousel-inner {
+  max-height: 39rem;
+}
+
+@media (max-width: 992px) {
+  .carousel-inner img {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-inner img {
+    max-height: 200px;
+  }
+}
+
+
+
+
+
+
+
+/*===================INTRO DE EQUIPO==========================*/
+.nosotros{
+  text-align: justify;
+  line-height: 2.5em;
+}
+
+
+
+
+/*===================SECCION TARJETAS==========================*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f9f6f2;
+}
+.card-img-top{
+  border-radius:2px;
+  padding: 0;
+}
+
+.card-body{
+  padding: 25px;
+  margin-top: -15px;
+}
+.card-text{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 15px;
+}
+.card {
+  transition: transform 0.3s ease-in-out; 
+  background-color: #f9f6f2;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+  background-color: #f9f6f2;;
+}
+
+ /*===================SECCION INTRO MANTENIMIENTO==========================*/
+
+#intro{
+  text-align: left !important;
+  width: 70% !important;
+  letter-spacing: 2px;
+  }
+  #mision-1{
+    text-align: left !important; 
+    width: 70% !important;
+    color: #f9f6f2;
+    letter-spacing: 2px;
+  }
+  .mision-caja{
+  width: 100%;
+  background: linear-gradient(to right top, rgb(11, 31, 42), rgb(68, 100, 148)) rgb(11, 31, 42);
+  border-top:0.5px solid rgb(252, 241, 241) ;
+  }
+  
+  #tarjet-1{
+  width: 50%;
+  padding: 20px;
+  
+  } 
+
+  /*===================SECCION TIPOS DE SERVICIOS==========================*/
+.icono-wrap img {
+border-radius: 5px;
+box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+
+  /*===================SECCION CLIENTES==========================*/
+  .clientes {
+    background-color:white; 
+    width: 100%;
+    padding: 20px; 
+    box-sizing: border-box;
+  }
+ 
+  /*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+#local{
+  background-color: #f3f3f3;
+  padding-bottom: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  }
+  
+  .wrapper{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px  ;
+  }
+
+
+/*===================MEDIA QUERIES PANTALLA SMALL===================*/
+@media(max-width:340px) {
+    #intro, #equipo{
+    width: 90%  !important;
+    }
+    
+    #equipo p{
+      display: none;
+    }
+
+    .servicio{
+      width: 100% !important;
+      text-align: center;
+    }
+    #bg-contacto{
+      top:-110px
+      }
+}
+
+
+/*============MEDIA QUERIES PANTALLAS EXTRA SMALL===============*/
+
+@media(max-width:576px){
+    .icono-wrap{
+      flex-wrap: wrap;
+      justify-content: center !important;
+
+    }
+
+}
+
+/*===============MEDIA QUERIES PANTALLA ANCHA===================*/
+
+@media(max-width:1200px){
+#local{
+    flex-wrap:wrap;
+    padding-top: 30px;
+}
+
+.wrapper{
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+}
+
+/*===========SECCION EQUIPO CABA===================*/
+#numeros-local div{
+padding:0 20px 0 0 ;
+height: 48px;
+}
+
+#numeros-local div:not(:last-child){
+  border-right: 2px solid #3f3f3f;
+}
+
+#numeros-local div:not(:first-child){
+padding-left: 20px;
+}
+
+#numeros-local p{
+margin:0; 
+}
+
+/*============CONTACTOS BACKGROUND=============*/
+
+#bg-contactos{
+  position:relative;
+  top: -130px;
+} 
+
+#seccion-contacto{
+  background-color: #1b2a4e;
+  min-height:500px;
+  position:relative;
+}
+
+#contenedor-formulario{
+position:absolute;
+top:30%;
+left:50%;
+transform:translate(-50%, -50%);
+background: #fbfafa;
+border-radius: 5px;
+max-width: 500px;
+}
+
+#titulo-formulario{
+color:#3f3f3f
+
+}
+
+/*=================FOOTER========================*/
+
+footer{
+
+background: #1b2a4b;
+min-height: 100px;
+}
+
+footer p{
+  color:#f3f3f3;
+  text-align: center;
+}
+
+#iconos i{
+font-size: 26px;
+padding:0 8px;
+color:#f3f3f3
+
+}
+
+.whatsapp{
+width: 60px;
+position:fixed;
+bottom: 10px;
+right: 10px;
+}
+
+
+
+
+
+
+
